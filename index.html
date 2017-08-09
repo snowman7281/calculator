@@ -6,26 +6,26 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
-  <body>
-    <div class="container">
+  <body> -->
+    <!-- <div class="container">
       <div class="calculator">
         <ul>
-          <li class="btn btn-default" id="one">1</li>
-          <li class="btn btn-default" id="two">2</li>
-          <li class="btn btn-default" id="three">3</li>
-          <li class="btn btn-default" id="four">4</li>
+          <li class="btn btn-default" id="one" value="1">1</li>
+          <li class="btn btn-default" id="two" value="2">2</li>
+          <li class="btn btn-default" id="three" value="3">3</li>
+          <li class="btn btn-default" id="four" value="4">4</li>
         </ul>
         <ul>
-          <li class="btn btn-default" id="five">5</li>
-          <li class="btn btn-default" id="six">6</li>
-          <li class="btn btn-default" id="seven">7</li>
-          <li class="btn btn-default" id="eight">8</li>
+          <li class="btn btn-default" id="five" value="5">5</li>
+          <li class="btn btn-default" id="six" value="6">6</li>
+          <li class="btn btn-default" id="seven" value="7">7</li>
+          <li class="btn btn-default" id="eight" value="8">8</li>
         </ul>
         <ul>
-          <li class="btn btn-default" id="nine">9</li>
-          <li class="btn btn-default" id="ten">0</li>
+          <li class="btn btn-default" id="nine" value="9">9</li>
+          <li class="btn btn-default" id="ten" value="0">0</li>
           <li class="btn btn-default" id="plus">+</li>
-          <li class="btn btn-default" id="equal">=</li>
+          <li class="btn btn-default" id="equal" value="2">=</li>
         </ul>
         <ul>
           <li class="btn btn-default" id="minus">-</li>
@@ -35,8 +35,28 @@
         </ul>
         <div class="output"></div>
       </div>
+    </div> -->
+    <div class="container">
+      <h1>Calculator</h1>
+      <form id="add">
+        <div class="form-group">
+          <label for="add1">1st number:</label>
+          <input id="add1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="add2">2nd number:</label>
+          <input id="add2" class="form-control" type="text">
+        </div>
+        <button id="add" type="submit" class="btn">Add</button>
+        <button id="subtract" type="submit" class="btn">Subtract</button>
+        <button id="multiply"type="submit" class="btn">Multiply!</button>
+        <button id="divide"type="submit" class="btn">Divide</button>
+      </form>
+      <div id="output">
+
+      </div>
     </div>
-   <script src="js/jquery.jsß" charset="utf-8"></script>
+   <script src="js/jquery.js" charset="utf-8"></script>
    <script src="js/scripts.js" charset="utf-8"></script>
   </body>
 </html>
